@@ -5,6 +5,7 @@
         <link rel = "stylesheet" href = "styles/video.css">
         <link rel = "stylesheet" href = "styles/header.css">
         <link rel = "stylesheet" href = "styles/general.css">
+        <link rel = "stylesheet" href = "styles/sidebar.css">
 
     </head>
     <body>
@@ -25,15 +26,54 @@
         <div class = "second-section">
             <img class = "upload-icon" src="icons/upload.svg">
             <img class = "apps-icon" src="icons/youtube-apps.svg">
-            <img class = "notification-icon" src="icons/notifications.svg">
+            <div class="notification-icon-container">
+                <img class = "notification-icon" src="icons/notifications.svg">
+            </div>
+            <div class = "notification-number">
+                3
+            </div>
             <img class = "profile-pic" src="pictures/profile.png">
         </div>
+        </div>
+         
+        <div class="sidebar">
+            <!-- first sidebar icon -->
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+              </div>
+            <!-- second sidebar icon -->
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+              </div>    
+            <!-- third sidebar icon -->
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Subscriptions</div>
+              </div>
+            <!-- fourth sidebar icon -->        
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>originals</div>
+              </div>
+              <!-- fifth sidebar icon -->
+              <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>Youtube Music</div>
+              </div>
+            <!-- sixth sidebar icon -->
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+              </div>
         </div>
 
         <div class="video-grid">
             <div class="video-preview">
-                <div>
+                <div class ="thumbnail-row">
                     <img class="video-thumbnail" src = "pictures/thumbnail-1.webp">
+                    <div class="video-time">14:20</div>
                 </div>
                 <div class = "video-info-grid">
                 <div class = "author-info">
@@ -49,8 +89,9 @@
             
                 <!-- Second Container -->
                 <div class="video-preview">
-                    <div>
+                    <div class ="thumbnail-row">
                         <img class="video-thumbnail" src = "pictures/thumbnail-2.webp">
+                        <div class="video-time">8:22</div>
                     </div>
                     <div class = "video-info-grid">
                     <div class = "author-info">
@@ -66,8 +107,9 @@
             
                     <!-- Third Container -->
                     <div class="video-preview">
-                        <div>
+                        <div class ="thumbnail-row">
                             <img class="video-thumbnail" src = "pictures/thumbnail-3.webp">
+                            <div class="video-time">9:13</div>
                         </div>
                         <div class = "video-info-grid">
                         <div class = "author-info">
@@ -83,8 +125,9 @@
             
                         <!-- Fourth Container -->
                         <div class="video-preview">
-                            <div>
+                            <div class ="thumbnail-row">
                                 <img class="video-thumbnail" src = "pictures/thumbnail-4.webp">
+                                <div class="video-time">22:09</div>
                             </div>
                             <div class = "video-info-grid">
                             <div class = "author-info">
@@ -100,8 +143,9 @@
                             </div>
                             <!-- Fifth Container -->        
                             <div class="video-preview">
-                                <div>
+                                <div class ="thumbnail-row">
                                     <img class="video-thumbnail" src = "pictures/thumbnail-5.webp">
+                                    <div class="video-time">11:17</div>
                                 </div>
                                 <div class = "video-info-grid">
                                 <div class = "author-info">
@@ -117,8 +161,9 @@
                                 </div>
                                <!-- Sixth Container -->
                                <div class="video-preview">
-                                <div>
+                                <div class ="thumbnail-row">
                                     <img class="video-thumbnail" src = "pictures/thumbnail-6.webp">
+                                    <div class="video-time">19:59</div>
                                 </div>
                                 <div class = "video-info-grid">
                                 <div class = "author-info">
@@ -133,7 +178,7 @@
                                 </div>
                                 </div>
 
-        </div
+                            </div>
 
     </body>
 </htm
